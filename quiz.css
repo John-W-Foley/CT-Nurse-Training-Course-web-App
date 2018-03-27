@@ -1,0 +1,40 @@
+body{
+font-family:arial;
+font-size:15px;
+line-height:2em;
+}
+
+.container {
+width:60%;
+margin:0 auto;
+overflow:auto;
+
+}
+label
+{
+ display:inline-block;
+  width: 100px;
+}
+
+li{
+  list-style-type: none;
+}
+input[type=text]{width:70% ;padding:1px;}
+input[type=number]{width:20% ;padding:1px;}
+
+header{
+
+border-bottom :3px #f4f4f4 solid;
+}
+footer{
+border-top:3px #f4f4f4 solid;
+text-align:center;
+padding-top:5px;
+}
+.currentq{
+  color:black;
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  padding: 5px 20px;
+  margin:20px 0 10px 0;
+}
